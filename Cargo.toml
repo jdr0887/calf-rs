@@ -1,0 +1,19 @@
+[package]
+name = "calf-rs"
+version = "0.1.0"
+authors = ["Jason Reilly <jdr0887@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+csv = "^1"
+env_logger = "^0.9"
+humantime = "^2.0"
+itertools = "^0.10"
+lazy_static = "^1.4"
+log = { version = "^0.4", features = ["std"] }
+plotters = "^0.3"
+rayon = "^1.5"
+regex = "^1.5"
+serde = { version = "^1", features = ["derive"] }
+smartcore = "^0.2"
+structopt = "^0.3"
